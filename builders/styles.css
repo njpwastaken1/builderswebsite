@@ -1,0 +1,539 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.align-top{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.align-start{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+.align-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.align-end{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.text-dec{
+    text-decoration: none;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .column {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: center;
+  }
+
+.change-width{
+    max-width: 100%;
+}
+
+.img-fluid{
+    max-width: 90%;
+}
+
+.padding-border{
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+.btn{
+    text-decoration: none;
+    padding: 15px 30px;
+}
+
+.btn-nav{
+    border: 1px solid black;
+    color: black;
+    border-radius: 25px;
+    font-size: 0.8em;
+    transition: 0.3s ease;
+}
+
+.btn-nav:hover{
+    background-color: black;
+    color: white;
+}
+
+.p-nav{
+    font-size: 0.8em;
+}
+
+.text-gap{
+    display: flex;
+    gap: 2rem;
+}
+
+.main-color{
+    color: black;
+}
+
+.logo{
+    font-size: 2em;
+}
+
+header{
+    border-bottom: 1px solid black;
+}
+
+.background-color{
+    background-color: #D9E2DA;
+}
+
+.secondary-color{
+    color: #0B0145;
+}
+
+.secondary-background-color{
+    background-color: #0a0045;
+}
+
+.hero-image{
+    background: url(images/hero.jpg);
+    position: absolute;
+    right: 0px;
+    width: 100%;
+    height: 100%;
+    max-width: 45%;
+    min-width: 45%;
+    background-color: #0a0045;
+    background-position: 0px 0px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+
+
+.h1-size{
+    font-size: 2.6em;
+    font-weight: 600;
+}
+
+.max-h1{
+    max-width: 35rem;
+}
+
+.p-size{
+    max-width: 31rem;
+}
+
+.fit{
+    max-width: fit-content;
+}
+
+.btn-hero{
+    background-color: #0a0045;
+    color: white;
+    border-radius: 25px;
+    font-size: 0.8em;
+}
+
+.icon-holder{
+    width: 25px;
+    height: 25px;
+    border: 1px solid #0B0145;
+    border-radius: 50%;
+    margin-left: 0.5rem;
+    transition: 0.3s ease;
+}
+
+.icon-holder:hover{
+    background-color: #0a0045;
+    color: white;
+}
+
+.padding-section{
+    padding-top: 12rem;
+    padding-bottom: 12.3rem;
+}
+
+.text-white{
+    color: white;
+}
+
+.test{
+    position: relative;
+}
+
+.section-padding{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.p-who{
+    font-size: 1.5em;
+}
+
+.h3-size{
+    font-size: 3em;
+    font-weight: 500;
+}
+
+.img-gallery{
+    max-width: 100%;
+    height: 500px;
+    object-fit: cover;
+    transition: 0.3s ease;
+}
+
+.btn-projects{
+    border-radius: 25px;
+    font-size: 0.8em;
+    border: 1px solid white;
+    color: white;
+    transition: 0.3s ease;
+}
+
+.btn-projects:hover{
+    background-color: white;
+    color: black;
+}
+
+
+li{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.icon{
+    font-size: 2em;
+    color: green;
+}
+
+.small-gap{
+    display: flex;
+    gap: 1rem;
+}
+
+.light-background{
+    background-color: #D8E3DA;
+}
+
+.card{
+    background-color: #0a0045;
+    padding: 50px;
+    height: 350px;
+}
+
+.go{
+    display: flex;
+}
+
+/* slider start */
+
+.for_slick_slider{
+    display: flex;
+}
+
+.change-slider-size{
+    height: 450px;
+}
+
+.for_slick_slider .items{
+    width: 350px;
+    height: 450px;
+    margin: 20px;
+}
+
+.for_slick_slider .items img{
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.single_for_slick_slider .items{
+    width: 350px;
+    height: 450px;
+    margin: 20px;
+}
+
+.width-big{
+    flex-basis: 30%;
+}
+
+.slider-single{
+    display: flex;
+}
+
+.img-single{
+    max-width: 40%;
+}
+
+.col{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.img-slider{
+    max-width: 100%;
+    max-height: 400px;
+}
+
+.small-card{
+    background-color: white;
+    height: 100px;
+}
+
+.line{
+    width: 100%;
+    height: 1px;
+    background-color: black;
+}
+
+.max-text{
+    max-width: 50rem;
+}
+
+.accordion {
+    background-color: #FFF;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+  }
+  
+  .active, .accordion:hover {
+    background-color: #fff; 
+  }
+
+  .no{
+    display: none;
+  }
+  
+  .panel {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+  } 
+  .f-nav{
+    display: flex;
+    flex-direction: column;
+  }
+  
+ .hide{
+    display: none;
+ }
+
+/* slider end */
+
+input{
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    color: white;
+    font-size: 1em;
+    padding-bottom: 2px;
+    min-width: 320px;
+}
+
+@media (max-width: 1328px){
+    .padding-border{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
+
+@media (max-width: 1218px){
+    .for_slick_slider .items{
+        width: 300px;
+        height: 500px;
+        margin: 20px;
+    }
+    .for_slick_slider .items img{
+        width: fit-content;
+        object-fit: cover;
+    }
+    .p-who{
+        font-size: 1.3em;
+    }
+}
+
+@media (max-width: 1000px){
+    .dont-show{
+        display: none;
+    }
+    .change-start{
+        display: flex;
+        justify-content: start;
+        align-items: start;
+    }
+    .change-direction{
+        display: flex;
+        flex-direction: column;
+    }
+    .reverse{
+        flex-direction: column-reverse;
+    }
+    .no-padding{
+        padding-top: 0rem;
+        padding-bottom: 0rem;
+    }
+    .hero-image{
+        background: url(images/hero.jpg);
+        position: absolute;
+        right: 0px;
+        width: 100%;
+        height: 100%;
+        max-width: 45%;
+        min-width: 45%;
+        background-color: #0a0045;
+        background-position: 0px 0px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        z-index: 1;
+    }
+    .hero-img-change{
+        height: 500px;
+        object-fit: cover;
+        max-width: 100%;
+    }
+    .p-size{
+        max-width: 80rem;
+    }
+    .h1-size{
+        max-width: 80rem;
+    }
+    .hide{
+        display: flex;
+    }
+    .change-fill{
+        object-fit: cover;
+        max-width: 100%;
+        position: relative;
+    }
+    .change-height{
+        max-height: 500px;
+    }
+    .for_slick_slider .items{
+        width: 350px;
+        height: 420px;
+        margin: 20px;
+    }
+    .card {
+        background-color: #0a0045;
+        padding: 50px;
+        height: 250px;
+    }
+    .h3-size {
+        font-size: 2em;
+        font-weight: 500;
+    }
+    
+}
+
+@media (max-width: 767px){
+    .direction-change{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .no{
+        display: flex;
+    }
+    .go{
+        display: none;
+    }
+    .clear{
+        width: 50%;
+    }
+    
+    .for_slick_slider .items{
+        width: 200px;
+        height: 500px;
+        margin: 20px;
+    }
+    .for_slick_slider .items img{
+        max-width: 100%;
+    }
+    .small-card{
+        max-width: 500px;
+    }
+    .img-slider{
+        width: 100%;
+        min-height: 600px;
+        object-fit: cover;
+    }
+    .single_for_slick_slider .items{
+        width: 350px;
+        height: 1100px;
+        margin: 20px;
+    }
+    .change-text-center{
+        text-align: center;
+    }
+    .h3-size {
+        font-size: 1.7em;
+        font-weight: 500;
+    }
+    
+}
+
+@media (max-width: 500px){
+    .p-size{
+        font-size: .9em;
+    }
+    .icon {
+        font-size: 1.5em;
+        color: green;
+    }
+    .h3-size {
+        font-size: 1.5em;
+        font-weight: 500;
+    }
+    .for_slick_slider .items{
+        width: 200px;
+        height: 450px;
+        margin: 20px;
+    }
+    
+}
+
+@media (max-width: 450px){
+    .for_slick_slider .items{
+        width: 200px;
+        height: 420px;
+        margin: 20px;
+    }
+}
+
+
+
+/* *{
+        outline: 1px solid red;
+} */
